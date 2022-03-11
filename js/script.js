@@ -29,6 +29,7 @@
 
 // })
 
+//used to show the hidden image
 $(document).ready(function(){
     $('p').click(function(){
         $('img').show()
