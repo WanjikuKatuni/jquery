@@ -19,7 +19,7 @@ $(document).ready(function(){
     $('h1').click(function(){
         alert('the header')
     })
-    $('p').click(fucntion(){
+    $('p').click(function(){
         alert('the paragraph')
     })
     $('img').click(function(){
