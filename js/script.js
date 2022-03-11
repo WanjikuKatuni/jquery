@@ -15,16 +15,22 @@
 // });
 
 
-$(document).ready(function(){
-    $('h1').click(function(){
-        alert('the header')
-    })
-    $('p').click(function(){
-        alert('the paragraph')
-    })
-    $('img').click(function(){
-        alert('the image')
-        alert('beautiful image')
-    })
+// $(document).ready(function(){
+//     $('h1').click(function(){
+//         alert('the header')
+//     })
+//     $('p').click(function(){
+//         alert('the paragraph')
+//     })
+//     $('img').click(function(){
+//         alert('the image')
+//         alert('beautiful image')
+//     })
 
+// })
+
+$(document).ready(function(){
+    $('p').click(function(){
+        $('img').show()
+    })
 })
