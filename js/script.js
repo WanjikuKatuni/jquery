@@ -58,6 +58,7 @@
 //how to add class when the button is clicked
 $(document).ready(function () {
   $("button#green").click(function () {
+    //   remives calss from selected element
     $("body").removeClass();
     $("body").addClass("green-background");
   });
