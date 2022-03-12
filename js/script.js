@@ -51,8 +51,8 @@
 
 
 $(document).ready(function(){
-    $('p').click(function(){
-        $(".show-image").toggle()
-        $(".hide-image").toggle()
+    $(".clickable").click(function(){
+        $("#show-image").toggle()
+        $("#hide-image").toggle()
     })
 })
