@@ -14,7 +14,6 @@
 //   });
 // });
 
-
 // $(document).ready(function(){
 //     $('h1').click(function(){
 //         alert('the header')
@@ -30,8 +29,30 @@
 // })
 
 //used to show the hidden image
+// $(document).ready(function() {
+//   $("p").click(function() {
+//     $("img").show();
+//   });
+// });
+
+
+// $(document).ready(function(){
+//     $('p').click(function(){
+//         $('img').show()
+//     })
+// })
+
+// $(document).ready(function(){
+//     $('p').click(function(){
+//         $(".show-image").toggle()
+//         $(".hide-image").toggle()
+//     })
+// })
+
+
 $(document).ready(function(){
     $('p').click(function(){
-        $('img').show()
+        $(".show-image").toggle()
+        $(".hide-image").toggle()
     })
 })

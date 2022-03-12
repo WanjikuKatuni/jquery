@@ -1,7 +1,8 @@
 /* to hide the image */
-img{
+/* img {
+    display: none; */
+/* } */
+
+.show-image {
     display: none;
-}
-.show-walrus{
-    display:none
 }
