@@ -52,7 +52,7 @@
 
 $(document).ready(function(){
     $(".clickable").click(function(){
-        $("#show-image").toggle()
-        $("#hide-image").toggle()
+        $("#show-image").slideToggle()
+        $("#hide-image").slideToggle()
     })
 })

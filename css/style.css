@@ -2,7 +2,8 @@
 /* img {
     display: none; */
 /* } */
-
+/* switched this from class to id */
+/* difference betwen class and id is that an id is used once in the page and a clas can be used as many times as possible */
 #show-image {
     display: none;
 }
