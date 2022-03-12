@@ -56,18 +56,33 @@
 // });
 
 //how to add class when the button is clicked
+// $(document).ready(function () {
+//   $("button#green").click(function () {
+//     //   remives calss from selected element
+//     $("body").removeClass();
+//     $("body").addClass("green-background");
+//   });
+//   $("button#yellow").click(function () {
+//     $("body").removeClass();
+//     $("body").addClass("yellow-background");
+//   });
+//   $("button#red").click(function () {
+//     $("body").removeClass();
+//     $("body").addClass("red-background");
+//   });
+// });
+
 $(document).ready(function () {
-  $("button#green").click(function () {
-    //   remives calss from selected element
-    $("body").removeClass();
-    $("body").addClass("green-background");
+  $("button#hello").click(function () {
+    $("ul#user").prepend("<li>Hello!<li>");
+    $("ul#webpage").prepend("<li>Why Hello there.<li>")
   });
-  $("button#yellow").click(function () {
-    $("body").removeClass();
-    $("body").addClass("yellow-background");
+  $("button#goodbye").click(function () {
+    $("ul#user").prepend("<li>Goodbye!<li>");
+    $("ul#webpage").prepend("<li>Bye Bye<li>")
   });
-  $("button#red").click(function () {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("button#stop").click(function () {
+    $("ul#user").prepend("<li>Stop Copying me<li>");
+    $("ul#webpage").prepend("<li>Okay.Sorry!!!<li>")
   });
 });
