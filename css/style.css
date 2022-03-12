@@ -4,15 +4,25 @@
 /* } */
 /* switched this from class to id */
 /* difference betwen class and id is that an id is used once in the page and a clas can be used as many times as possible */
-#show-image {
+/* #show-image {
     display: none;
 }
 
 .clickable{
     cursor: pointer;
     color: #0088cc;
-}
+} */
 
 .clickable:hover {
     text-decoration: underline;
+}
+
+.green-background{
+    background-color: green;
+}
+.yellow-background {
+    background-color: yellow;
+}
+.red-background {
+    background-color: red;
 }

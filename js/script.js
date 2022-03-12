@@ -35,7 +35,6 @@
 //   });
 // });
 
-
 // $(document).ready(function(){
 //     $('p').click(function(){
 //         $('img').show()
@@ -49,10 +48,25 @@
 //     })
 // })
 
+// $(document).ready(function () {
+//   $(".clickable").click(function () {
+//     $("#show-image").slideToggle();
+//     $("#hide-image").slideToggle();
+//   });
+// });
 
-$(document).ready(function(){
-    $(".clickable").click(function(){
-        $("#show-image").slideToggle()
-        $("#hide-image").slideToggle()
-    })
-})
+//how to add class when the button is clicked
+$(document).ready(function () {
+  $("button#green").click(function () {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+  $("button#yellow").click(function () {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+  $("button#red").click(function () {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+});
