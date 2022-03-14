@@ -72,18 +72,30 @@
 //   });
 // });
 
-$(document).ready(function () {
-  $("button#hello").click(function () {
-    $("ul#user").prepend("<li>Hello!<li>");
-    $("ul#webpage").prepend("<li>Why Hello there.<li>")
-    $("li").css("background-color", "green")
-  });
-  $("button#goodbye").click(function () {
-    $("ul#user").prepend("<li>Goodbye!<li>");
-    $("ul#webpage").prepend("<li>Bye Bye<li>")
-  });
-  $("button#stop").click(function () {
-    $("ul#user").prepend("<li>Stop Copying me<li>");
-    $("ul#webpage").prepend("<li>Okay.Sorry!!!<li>")
-  });
-});
+// $(document).ready(function () {
+//   $("button#hello").click(function () {
+//     $("ul#user").prepend("<li>Hello!<li>");
+//     $("ul#webpage").prepend("<li>Why Hello there.<li>")
+//     $("li").click(function(){
+//         alert("hi")
+//     })
+//   });
+//   $("button#goodbye").click(function () {
+//     $("ul#user").prepend("<li>Goodbye!<li>");
+//     $("ul#webpage").prepend("<li>Bye Bye<li>")
+//   });
+//   $("button#stop").click(function () {
+//     $("ul#user").prepend("<li>Stop Copying me<li>");
+//     $("ul#webpage").prepend("<li>Okay.Sorry!!!<li>")
+//   });
+// });
+
+$(document).ready(function(){
+  $("div#click-one").click(function(event){
+    whatToSay = "Hello!!!"
+    alert(whatToSay)
+  })
+  $("div#click-two").click(function(event){
+    alert(whatToSay)
+  })
+})
